@@ -45,16 +45,9 @@ h1, h2, h3 {
   margin: 10px 0;
 }
 
-.cargo {
-    display: flex;               /* coloca texto e ícone na mesma linha */
-    align-items: center;         /* alinha verticalmente */
-    font-size: 1.2em;
-    font-weight: normal;
-    gap: 8px;                    /* espaço entre ícone e texto */
-}
-
-.icone-titulo {
-    width: 30px;                 /* tamanho do ícone */
-    height: 30px;
-    object-fit: contain;         /* mantém proporção da imagem */
+.linha {
+  border: none;          /* remove bordas padrão */
+  height: 2px;           /* espessura da linha */
+  background-color: #333; /* cor da linha */
+  margin: 20px 0;        /* espaço acima e abaixo */
 }
