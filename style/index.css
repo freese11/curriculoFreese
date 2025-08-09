@@ -1,0 +1,22 @@
+.containerdoLado {
+height: 250px;
+width: 4%;
+background-color: #110fab;
+}
+.containerdoCentro {
+height: 250px;
+width: 36%;
+background-color: #f0f0f0;
+}
+img {
+width: 10%;
+height: auto;
+}
+.containerdoLado2 {
+height: 250px;
+width: 63%;
+background-color: #50ab0f;
+}
+.pai {
+    display: flex;
+}
