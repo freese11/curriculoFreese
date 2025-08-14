@@ -59,3 +59,12 @@ h1, h2, h3 {
     vertical-align: middle; /* alinha com o texto */
     margin-right: 6px;      /* espaço entre ícone e texto */
 }
+
+.iconeTela1 {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle; /* alinha com o texto */
+    margin-right: 6px;      /* espaço entre ícone e texto */
+    gap: 10px;
+}
+
