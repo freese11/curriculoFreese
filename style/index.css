@@ -9,6 +9,14 @@ body {
   height: 100vh;
 }
 
+.containerdoLado2 p, .containerdoLado2 h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containerdoCentro p, .containerdoCentro h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* Coluna Esquerda */
 .containerdoLado {
   width: 10%;
@@ -36,7 +44,7 @@ body {
 /* Coluna Direita */
 .containerdoLado2 {
   width: 50%;
-  background-color: #1a3c64;
+  background-color: #74889e;
   color: white;
   padding: 20px;
   
@@ -45,6 +53,8 @@ body {
 h1, h2, h3 {
   margin: 10px 0;
 }
+
+
 
 .linha {
   border: none;          /* remove bordas padrão */
@@ -64,7 +74,31 @@ h1, h2, h3 {
     width: 20px;
     height: 20px;
     vertical-align: middle; /* alinha com o texto */
-    margin-right: 6px;      /* espaço entre ícone e texto */
+    margin-right: 8px;      /* espaço entre ícone e texto */
     gap: 10px;
+  
+      
+}
+.contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza os itens */
+  gap: 5px; /* espaço entre os itens */
+}
+
+.contatos a {
+  text-decoration: none;
+  color: #1a3c64;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.habilidades p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #000000; /* cor do texto */
 }
 
